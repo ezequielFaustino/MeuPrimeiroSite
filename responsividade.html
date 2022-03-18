@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 300px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nam natus totam, veritatis laudantium officiis earum itaque, quis adipisci asperiores tempore? Repudiandae quis pariatur deleniti suscipit quasi ad autem sequi.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="img/buggy-peq.png">
+            <img src="img/buggy.png" alt=""></picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deserunt excepturi tempore eveniet consequatur. Tempora ipsum ducimus, corporis quia quos facilis! Nobis illum sed quibusdam odio alias, assumenda eum mollitia.</p>
+    </main>
+</body>
+</html>
